@@ -1,0 +1,76 @@
+*{padding:0; margin: 0; border: none; outline: none;}
+body{ font-size: 14px; font-family:'微软雅黑'; color: #666;}
+ul,li{ list-style-type: none;}
+a{ text-decoration: none; color: #666;}
+a:hover{ color: #2677e3;}
+#header{width: 100%; height: auto; overflow: hidden;}
+#header .h_top{width: 100%; height: 30px; line-height: 30px; background: #fbfbfb; border-bottom: 1px solid #e8e8e8;}
+#header .h_top .box{width: 1000px; height: auto; overflow: hidden; margin: 0 auto;}
+#header .h_top p{ float: left;}
+#header .h_top ul{ float: right;}
+#header .h_top ul li{ float: left;}
+#header .h_top ul li a{ padding: 0 10px;}
+#header .h_mid{width: 1000px; height: 100px; overflow: hidden; margin: 0 auto;}
+#header .h_mid .logo{ float: left; line-height: 100px; font-size: 28px; font-weight: bold;}
+#header .h_mid .soso{ float: right; padding-top: 35px;}
+#header .h_mid .soso input{ float: left; width: 230px; height: 30px; border: 1px solid #ccc; line-height: 30px; text-indent: 10px;}
+#header .h_mid .soso button{ float: left; width: 60px; height: 32px; background: #2677e3; color: #fff;}
+#header .h_nav{width: 1000px; height:45px; line-height: 45px; background: #2677e3; margin: 0 auto;}
+#header .h_nav ul{width: 1000px; height: auto; overflow: hidden; margin: 0 auto;}
+#header .h_nav ul li{ float: left; width: 125px; height: 45px;}
+#header .h_nav ul li a{ color: #fff; display: block; width: 100%; line-height: 45px; text-align: center;}
+#header .h_nav ul li a:hover{ background: #1684db;}
+
+#banner{width: 1000px; height: auto; overflow: hidden; margin: 10px auto;}
+#banner img{width: 100%; display: block;}
+
+#main{width: 1000px; height: auto; overflow: hidden; margin: 0 auto;}
+#main .m_top{width: 100%; height: auto; overflow: hidden; margin-bottom: 20px;}
+#main .m_top .left{width: 750px; height: auto; overflow: hidden; float: left;}
+#main .m_top .left .title{height: 35px; border-bottom:1px solid #ccc ; }
+#main .m_top .left .title h2{ float: left; border-left: 3px solid #1684db; font-size: 18px; text-indent: 6px; font-weight: normal;}
+#main .m_top .left .item{ padding-top: 10px;}
+#main .m_top .left .item p{ line-height: 1.8; margin-bottom: 10px;}
+#main .m_top .right{width: 230px; height: auto; overflow: hidden; float: right;}
+#main .m_top .right ul li{width: 208px; height: 113px; overflow: hidden;  border-radius: 10px; overflow: hidden; margin:0 auto 20px;}
+#main .m_top .right ul li a{ display: block; background: rgba(0,0,0,0.3); width: 208px; height: 113px; line-height: 113px; text-align: center; font-size: 22px; color: #fff;}
+#main .m_top .right ul li.l1 { background: url(../img/01.jpg) no-repeat left center;}
+#main .m_top .right ul li.l2 { background: url(../img/02.jpg) no-repeat left center;}
+#main .m_top .right ul li.l3 { background: url(../img/03.jpg) no-repeat left center;}
+#main .m_mid{width: 110%; height: auto; overflow: hidden; margin: 0 auto;}
+#main .m_mid .ads{width: 1000px; height: 60px; line-height: 60px; text-align: center; background: #eee; overflow: hidden; float: left; margin-bottom: 20px;}
+#main .m_mid .item{width: 315px; height: auto; overflow: hidden; float: left; margin-right: 27px; margin-bottom: 20px;}
+#main .m_mid .item .title{width: 100%; height: 35px; overflow: hidden;  background: #eee; }
+#main .m_mid .item .title h2{ float: left; height: 35px; line-height: 35px; border-left: 3px solid #1684db; font-size: 18px; text-indent: 6px; font-weight: normal;}
+#main .m_mid .item .title a{ display: block; float: right; line-height: 35px; padding-right: 15px;}
+#main .m_mid .item .box{width: 313px; height: auto; overflow: hidden; border: 1px solid #eee;}
+#main .m_mid .item .box ul li{width: 100%; height: 35px; line-height: 35px; overflow: hidden; border-bottom: 1px dotted #ccc;}
+#main .m_mid .item .box ul li a{width: 200px; height: 35px; line-height: 35px; text-indent: 15px; display: block; float: left;}
+#main .m_mid .item .box ul li span{ float: right; padding-right: 15px;}
+
+#footer{width: 1000px; height: auto; overflow: hidden; background: #1684db; line-height: 60px; text-align: center; margin: 0 auto; font-size: 16px; color: #fff;}
+
+#main .m_left{width: 200px; height: auto; float: left;}
+#main .m_left h2{width: 100%; height: 60px; line-height: 60px; color: #fff; text-align: center; font-size: 20px; font-weight: normal; background: #1684db;}
+#main .m_left ul li{ font-size: 14px; width: 100%; height: auto; overflow: hidden; text-indent: 20px;}
+#main .m_left ul li a{display: block; width: 100%; line-height: 40px; background: #eee; border-bottom: 1px solid #ccc;}
+#main .m_left ul li a:hover{ background: #1684db; color: #fff; border-bottom: 1px solid #1684db;}
+#main .m_right{width: 780px; border: 1px solid #ccc; float: right; margin-bottom: 20px;}
+#main .m_right .place{width: 100%; height: 40px; line-height: 40px; border-bottom: 1px solid #ccc; background: #eee; color: #1684db; text-indent: 20px; font-size: 20px;}
+#main .m_right .box{width: 100%; height: auto; overflow: hidden; padding: 10px 0 15px;}
+#main .m_right .box ul li{width: 100%; height: 35px; line-height: 35px; overflow: hidden; border-bottom: 1px dotted #ccc;}
+#main .m_right .box ul li a{width: 200px; height: 35px; line-height: 35px; text-indent: 15px; display: block; float: left;}
+#main .m_right .box ul li span{ float: right; padding-right: 15px;}
+#main .m_right .pagelist{width: 100%; height: auto; text-align: right; padding: 0 0 30px 0;}
+#main .m_right .pagelist ul {padding-right: 15px;}
+#main .m_right .pagelist ul li{ display: inline-block;}
+#main .m_right .pagelist ul li a{ display: block; padding: 2px 5px; border: 1px solid #ccc;}
+#main .m_right .pagelist ul li a:hover{ background: #1684db; color: #fff;}
+
+#main .m_right .art{width: auto; padding: 20px;}
+#main .m_right .art h2{ text-align: center;}
+#main .m_right .art .info{ text-align: center; border-bottom: 1px solid #ccc; padding: 10px 0; margin-bottom: 10px;}
+#main .m_right .art p{ padding: 10px 0; line-height: 1.8;}
+#main .m_right .body{width: 100%; height: auto; overflow: hidden; border-bottom: 1px dotted #ccc;}
+#main .m_right .pagefy ul{width: 100%; padding-top: 20px;}
+#main .m_right .pagefy ul li{ line-height: 30px;}
